@@ -2,7 +2,7 @@ import type { TimerAdjustDirection } from '../types';
 
 export const FIGMA_IMAGES = {
   logo: '/assets/questdone/logo.png',
-  profileAvatar: '/assets/questdone/avatar.png',
+  profileAvatar: '/assets/questdone/avatar-alt.svg',
   stopwatch: '/assets/questdone/stopwatch.png',
   rewards: {
     witchHat: '/assets/questdone/reward-witch-hat.png',
