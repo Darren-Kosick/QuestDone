@@ -375,31 +375,37 @@
 .rewards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 24px;
+  gap: 20px;
 }
 
 .rewards-panel {
   background: var(--container);
   border-radius: var(--panel-radius);
-  padding: 24px;
+  padding: 22px;
   box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25);
 }
 
 .rewards-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(120px, 1fr));
-  gap: 20px;
+  gap: 16px;
 }
 
 .rewards-grid__cell {
   background: #ffe7b9;
-  border: 5px solid #915628;
-  border-radius: 22px;
-  padding: 12px;
+  border: 4px solid #915628;
+  border-radius: 20px;
+  padding: 8px;
+  min-height: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
   animation: glowPulse 12s ease-in-out infinite;
+}
+
+.rewards-grid__cell img {
+  width: clamp(90px, 60%, 150px);
+  height: auto;
 }
 
 /* Task List */
